@@ -1,0 +1,26 @@
+package com.BlogAuJ.AuJ.api.dto.request;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class FavouriteRequest {
+
+    private Long userId;
+    private Long postId;
+    
+    
+
+    
+
+
+
+
+    
+}
